@@ -1,6 +1,6 @@
 import httplib
 
-#Connect to IP Address at port
+#Connect to IP Address at port specidied bellow
 httpServ = httplib.HTTPConnection("10.62.0.213", 8000)
 httpServ.connect()
 
