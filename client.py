@@ -6,7 +6,7 @@ httpServ.connect()
 
 #Message to send to server
 message = "hi"
-httpServ.request('GET', "/echo.php?message=" + server)
+httpServ.request('GET', "/echo.php?message=" + message)
 
 response = httpServ.getresponse()
 if response.status == httplib.OK:
